@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<section class="profile">
+  <img class="profile-photo" src="{{ site.profile.photo | relative_url }}" alt="Photo of {{ site.title }}">
+  <div class="profile-info">
+    <h1 class="profile-name">{{ site.title }}</h1>
+    {% for line in site.profile.lines %}<div>{{ line | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endfor %}
+    <div class="profile-email">
+      {% for e in site.profile.email %}<a href="mailto:{{ e }}">{{ e }}</a>{% unless forloop.last %}<span class="sep">·</span>{% endunless %}{% endfor %}
+    </div>
+    <div class="links">
+      {% if site.profile.resume %}<a class="btn btn-primary" href="{{ site.profile.resume | relative_url }}">Resume</a>{% endif %}
+      {% for l in site.links %}<a class="btn" href="{{ l.url }}">{{ l.name }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="bio">
+  {{ content }}
+</section>
+
+<section>
+  <h2>Monthly Updates</h2>
+  {% include updates.html limit=site.home_update_months %}
+  <p class="more"><a href="{{ '/updates/' | relative_url }}">See all updates →</a></p>
+</section>

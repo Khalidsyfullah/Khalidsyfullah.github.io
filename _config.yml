@@ -1,0 +1,62 @@
+# =====================================================================
+#  SITE SETTINGS  —  edit your name, contact info and links here.
+#  After changing this file, GitHub rebuilds the site in ~1 minute.
+# =====================================================================
+
+title: Md Khalid Syfullah
+description: PhD student in Computer Science at Southern Illinois University Carbondale. Research on vision–language models, trustworthy AI, multimodal and privacy-preserving learning.
+url: "https://khalidsyfullah.github.io"   # your GitHub Pages address
+baseurl: ""                                # leave empty for username.github.io
+
+# ---------- Profile box on the home page ----------
+profile:
+  photo: /assets/img/profile.jpg           # replace this file with your own photo (square works best)
+  lines:                                   # each line is shown under your name
+    - "**PhD Student & Graduate Research Assistant**"
+    - "Department of Computer Science"
+    - "Southern Illinois University Carbondale, USA"
+    - "Lab: [TITANS Laboratory](https://titans-laboratory.github.io/)"
+  email:
+    - mdkhalid.syfullah@siu.edu
+    - khalidsyfullah3@gmail.com
+  resume: /resume/                         # the blue "Resume" button (edit resume.md; delete this line to hide it)
+
+# ---------- Profile links (shown as buttons) ----------
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=W5azD1AAAAAJ&hl=en
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/md-khalid-syfullah/
+  - name: GitHub
+    url: https://github.com/Khalidsyfullah
+  - name: ResearchGate
+    url: https://www.researchgate.net/profile/Md-Khalid-Syfullah-3
+  - name: ORCID
+    url: https://orcid.org/0009-0003-6219-5851
+
+# ---------- Top menu (order = order shown) ----------
+navigation:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Research
+    url: /research/
+  - title: Projects
+    url: /projects/
+  - title: Teaching
+    url: /teaching/
+  - title: Achievements
+    url: /achievements/
+  - title: Travelling
+    url: /travelling/
+  - title: Resume
+    url: /resume/
+
+# How many months of updates to show on the home page
+# (the full list is always on the /updates/ page)
+home_update_months: 8
+
+# ---------- Leave the settings below as they are ----------
+markdown: kramdown
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

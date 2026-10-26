@@ -1,0 +1,59 @@
+# =====================================================================
+#  PROJECTS  —  shown on the /projects/ page.
+#  Copy a block, paste it where you want it in the list, and edit it.
+#  "link" and "tech" are optional.
+# =====================================================================
+
+- title: "Early Dengue Detection in Bangladesh Using Symptom Analysis and Time-Series Forecasting"
+  type: Research project
+  link: https://github.com/Khalidsyfullah/Research-on-Bangladeshi-Dengue-Data
+  description: "Detects dengue early in Bangladesh using district-wise case data (2016–2024) and a symptom-based survey. A two-step model combines time-series forecasting (Prophet) with symptom-based classification (Random Forest, XGBoost), reaching up to 92.5% accuracy as a non-invasive diagnostic aid."
+  tech: "Python, LSTM, Prophet, scikit-learn, XGBoost, Random Forest, Google Forms"
+
+- title: "Privacy-Preserving Early Detection of Autism Spectrum Disorder Using Federated Learning"
+  type: Research project
+  link: https://github.com/Khalidsyfullah/Federated-Learning-for-Autism-Spectrum-Disorder
+  description: "Federated learning on the Autism Gait and Gesture dataset with a client–server architecture, so patient data never leaves the client. Achieved 97.5% accuracy."
+  tech: "Python, TensorFlow, deep learning, RSA encryption"
+
+- title: "Paper and Pencil Games"
+  type: Android game
+  link: https://github.com/Khalidsyfullah/paper-and-pencil-game
+  description: "A collection of classic paper-and-pencil games (Tic Tac Toe, Dots and Boxes, SOS, SIM, Pong Hau Ki, Four in a Row) for quick offline play."
+  tech: "Unity, C#, Firebase, AdMob"
+
+- title: "Guti – Traditional Strategy Game"
+  type: Android game
+  link: https://github.com/Khalidsyfullah/Board-Games-Collection
+  description: "The South Asian board game Guti in several traditional modes (3, 6 and 16 Guti, Lau Kata Kati, Pretwa), with AI and multiplayer, adjustable difficulty, leaderboards and achievements."
+  tech: "Unity, C#, Firebase, AdMob"
+
+- title: "Computer Graphics Projects: Kitchen and Resort Backyard"
+  type: Academic project
+  link: https://github.com/Khalidsyfullah/Computer-Graphics
+  description: "3D scenes built with OpenGL using translation, rotation, shading, lighting and texturing. [Kitchen repository](https://github.com/Khalidsyfullah/Kitchen-computer-graphics)."
+  tech: "C/C++, OpenGL, GLU, GLUT"
+
+- title: "Puzka – Personal Assistant App"
+  type: Android app
+  link: https://github.com/Khalidsyfullah/puzka_system_development_project
+  description: "Notepad, transaction manager, routine organizer, drawing tool and image-to-text recognition, with biometric login."
+  tech: "Java, OpenCV, Firebase ML Kit, SQLite, Android Studio"
+
+- title: "eTutor"
+  type: Android app
+  link: https://github.com/Khalidsyfullah/eTutor
+  description: "Connects students with verified tutors, with location-based search via Google Maps and in-app booking."
+  tech: "Java, SQLite, Firebase, Google Maps API"
+
+- title: "Fitness Freak Foodie"
+  type: Android app
+  link: https://github.com/Khalidsyfullah/Fitness-Freak
+  description: "Tracks calories burned, BMI and BMR, with Firebase sync."
+  tech: "Java, Firebase, Android Studio"
+
+- title: "Tank Battle Game"
+  type: Windows game
+  link: https://github.com/Khalidsyfullah/2-Player-Battle-game
+  description: "Two-player real-time tank battle with online and offline modes and AI opponents using Minimax, heuristic search and reinforcement learning."
+  tech: "Unity, C#"

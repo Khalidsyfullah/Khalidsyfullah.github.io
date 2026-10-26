@@ -1,0 +1,131 @@
+/* ------------------------------------------------------------------
+   Simple white academic theme.
+   To change the accent colour, edit --accent below.
+------------------------------------------------------------------- */
+:root {
+  --accent: #1f5fa8;
+  --accent-soft: #eaf1fa;
+  --text: #222;
+  --muted: #5f6670;
+  --line: #e3e6ea;
+  --bg: #ffffff;
+  --max: 900px;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.65 "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+
+/* ---------- header ---------- */
+.site-header { border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--bg); z-index: 10; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 60px; gap: 16px; }
+.site-name { font-family: "Source Serif 4", Georgia, serif; font-size: 1.2rem; font-weight: 600; color: var(--text); white-space: nowrap; }
+.site-name:hover { text-decoration: none; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.site-nav a { color: var(--muted); font-size: .95rem; padding: 4px 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover { color: var(--text); text-decoration: none; }
+.site-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+.nav-toggle, .nav-button { display: none; }
+
+/* ---------- headings ---------- */
+h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; line-height: 1.3; }
+.page-title { font-size: 1.9rem; margin: 36px 0 8px; }
+h2 { font-size: 1.35rem; margin: 40px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.1rem; margin: 26px 0 8px; }
+
+main { padding-bottom: 40px; }
+
+/* ---------- profile ---------- */
+.profile { display: flex; gap: 32px; align-items: flex-start; margin-top: 40px; }
+.profile-photo { width: 190px; height: 190px; object-fit: cover; border-radius: 8px; flex-shrink: 0; border: 1px solid var(--line); }
+.profile-info { color: var(--muted); min-width: 0; }
+.profile-name { font-size: 2rem; margin: 0 0 6px; color: var(--text); }
+.profile-info strong { color: var(--text); font-weight: 600; }
+.profile-email { margin-top: 8px; display: flex; flex-wrap: wrap; align-items: center; overflow-wrap: anywhere; }
+.sep { margin: 0 8px; color: #b7bcc3; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.btn { display: inline-block; padding: 4px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: .9rem; color: var(--text); }
+.btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-primary:hover { background: #174a85; color: #fff; }
+.bio { margin-top: 28px; }
+
+/* ---------- monthly updates ---------- */
+.timeline .month { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px dashed var(--line); }
+.timeline .month:last-child { border-bottom: 0; }
+.month-label { font-weight: 700; color: var(--accent); font-size: .95rem; padding-top: 1px; }
+.month-items { margin: 0; padding-left: 18px; }
+.month-items li { margin: 0 0 4px; }
+.more { margin-top: 12px; }
+
+/* ---------- publications & projects ---------- */
+.pub-list, .proj-list { list-style: none; padding: 0; margin: 0; }
+.pub { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.pub:last-child { border-bottom: 0; }
+.pub-title { font-weight: 600; }
+.pub-authors { color: var(--muted); }
+.pub-authors strong { color: var(--text); }
+.pub-venue { font-style: italic; }
+.tag { display: inline-block; font-size: .75rem; font-style: normal; font-weight: 600; padding: 1px 8px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; vertical-align: 1px; }
+.pub-links a { font-size: .9rem; margin-right: 10px; }
+.proj { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.proj:last-child { border-bottom: 0; }
+.proj-meta { color: var(--muted); font-size: .9rem; }
+.proj p { margin: 6px 0; }
+.tech { color: var(--muted); font-size: .9rem; }
+
+/* ---------- simple tables (teaching, leadership) ---------- */
+table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; font-size: .97rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; background: #f7f8fa; }
+
+/* ---------- resume ---------- */
+.resume-contact { color: var(--muted); margin-top: 0; }
+@media print {
+  .site-header, .site-footer { display: none; }
+  body { font-size: 12px; }
+}
+
+/* ---------- travel ---------- */
+.trip { margin-bottom: 28px; }
+.trip h3 { margin-bottom: 2px; }
+.trip-date { color: var(--muted); font-size: .9rem; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; margin-top: 10px; }
+.gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
+
+/* ---------- footer ---------- */
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; padding: 18px 0 28px; }
+
+/* ---------- mobile ---------- */
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 16px; }
+  .nav-button { display: block; width: 32px; height: 32px; position: relative; cursor: pointer; }
+  .nav-button span, .nav-button span::before, .nav-button span::after {
+    content: ""; position: absolute; left: 5px; right: 5px; height: 2px; background: var(--text); }
+  .nav-button span { top: 15px; }
+  .nav-button span::before { top: -7px; left: 0; right: 0; }
+  .nav-button span::after { top: 7px; left: 0; right: 0; }
+  .header-inner { flex-wrap: wrap; }
+  .site-nav { display: none; width: 100%; flex-direction: column; gap: 0; padding-bottom: 10px; }
+  .site-nav a { padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .site-nav a.active { border-bottom-color: var(--line); }
+  .nav-toggle:checked ~ .site-nav { display: flex; }
+  .profile { flex-direction: column; align-items: center; text-align: center; gap: 18px; }
+  .profile-photo { width: 150px; height: 150px; }
+  .links, .profile-email { justify-content: center; }
+  .profile-email { flex-direction: column; gap: 2px; }
+  .profile-email .sep { display: none; }
+  .timeline .month { grid-template-columns: 1fr; gap: 4px; }
+  table { font-size: .9rem; }
+}

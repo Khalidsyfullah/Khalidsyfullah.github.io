@@ -1,0 +1,76 @@
+# =====================================================================
+#  MONTHLY UPDATES  —  shown on the home page and on /updates/
+#
+#  HOW TO ADD A NEW MONTH: copy the block below, paste it at the TOP
+#  of the list (newest first), and change the text.
+#
+#  - month: November 2026
+#    items:
+#      - "First thing that happened this month."
+#      - "A paper link: [My Paper](https://link-to-paper)."
+#
+#  Tips: keep each item in "double quotes". **bold** and [links](url)
+#  work. Indentation matters: use spaces, not tabs.
+#
+#  Lines marked  # CHECK  have a month I guessed — please confirm.
+# =====================================================================
+
+- month: October 2026
+  items:
+    - "Selected for the **national round of NSF I-Corps** (Fall Cohort 3, 2026) as Entrepreneur Lead for **AI-Trustcheck**, continuing our work to bring research out of the lab and into real use."
+    - "Attended **IEEE SMC 2026** (Bellevue, Washington, 4–7 October) and presented our paper **“USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation.”**"
+    - "Spoke on the panel **“Trustworthy AI in Practice: Emerging Threats and Privacy-Preserving Solutions for Illinois Healthcare and High-Stakes Systems”** at the **Illinois Innovation Network (IIN) Conference 2026** (SIU Edwardsville, 23 October), with Dr. Alvi Ataur Khalil and Abdullahil Kafi from SIU Carbondale."
+
+- month: July 2026
+  items:
+    - "Participated in the **Qiskit Global Summer School 2026** by IBM Quantum (13–24 July): two weeks of lectures and hands-on labs on quantum computing with Qiskit."
+    - "Paper **“LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys”** accepted at **IEEE HealthCom 2026**."   # CHECK
+    - "Paper **“USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation”** accepted at **IEEE SMC 2026**."   # CHECK
+
+- month: June 2026
+  items:
+    - "Started as a **Graduate Research Assistant** at Southern Illinois University Carbondale."
+
+- month: February 2026
+  items:
+    - "Participated in the **NSF I-Corps Regional Cohort** with the Great Lakes Hub at the University of Wisconsin–Madison, as Entrepreneur Lead for **AI-Trustcheck**. The goal is to bring research out of the lab: we met with many people from industry and academia to learn what problems they face and how our work could help."
+    - "Paper **“Detection of Mental Stress From Photoplethysmography for Under-Resourced Healthcare Systems”** published in the **IEEE Sensors Journal**, 26(4)."   # CHECK
+
+- month: January 2026
+  items:
+    - "Started my **PhD in Computer Science** at Southern Illinois University Carbondale and joined as a **Graduate Teaching Assistant**."
+    - "Joined the [TITANS Laboratory](https://titans-laboratory.github.io/)."   # CHECK
+
+- month: December 2025
+  items:
+    - "Completed my lecturer service at BAUST (July 2023 – December 2025) and went on leave for doctoral studies."
+
+- month: April 2025
+  items:
+    - "Scored **105/120 on the TOEFL iBT**."
+
+- month: February 2025
+  items:
+    - "Two co-supervised undergraduate papers presented at **ECCE 2025**, Chattogram: Bangla question classification and car price prediction."
+    - "Served as a **reviewer** for UCICS 2025 (Varendra University, Rajshahi, 26–27 February)."
+    - "Appointed **Departmental Program Coordinator**, Department of CSE, BAUST."
+
+- month: November 2024
+  items:
+    - "Presented **“Federated Learning for Autism Spectrum Disorder Detection”** at MIET 2024 (published by Springer)."
+
+- month: September 2024
+  items:
+    - "Three papers presented at IEEE conferences: Bengali cyberbullying detection and Bangla sign language recognition (**IEEE COMPAS 2024**), and early dengue diagnosis (**IEEE PEEIACON 2024**)."
+
+- month: August 2024
+  items:
+    - "Became Advisor of the Robotics and Mechatronics Club, BAUST."
+
+- month: July 2023
+  items:
+    - "Joined BAUST as a **Lecturer** in the Department of CSE."
+
+- month: February 2023
+  items:
+    - "Completed my **B.Sc. in Computer Science and Engineering** at KUET."

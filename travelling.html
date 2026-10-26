@@ -1,0 +1,21 @@
+---
+layout: default
+title: Travelling
+permalink: /travelling/
+---
+
+<!-- Trips are listed in _data/travel.yml — edit that file, not this one. -->
+
+<p>Travelling is my favorite hobby. As Hans Christian Andersen put it, <em>“To travel is to live.”</em></p>
+
+{% for t in site.data.travel %}
+<div class="trip">
+  <h3>{{ t.place }}</h3>
+  <div class="trip-date">{{ t.date }}</div>
+  {% if t.photos.size > 0 %}
+  <div class="gallery">
+    {% for ph in t.photos %}{% assign src = '/assets/img/travel/' | append: ph | relative_url %}<a href="{{ src }}" target="_blank"><img src="{{ src }}" alt="{{ t.place }}" loading="lazy"></a>{% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endfor %}

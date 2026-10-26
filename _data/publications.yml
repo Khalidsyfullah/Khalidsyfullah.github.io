@@ -1,0 +1,79 @@
+# =====================================================================
+#  PUBLICATIONS  —  shown on the /publications/ page, newest first.
+#
+#  HOW TO ADD A PAPER: copy one block, paste it at the TOP of the
+#  right section, and edit it. Put **two stars** around your own name.
+#
+#  - title: "Paper title"
+#    authors: "**Md Khalid Syfullah**, Co Author"
+#    venue: "IEEE Conference Name"
+#    year: 2026
+#    status: accepted        # optional: accepted / under review / preprint
+#    link: https://...       # optional
+#    code: https://...       # optional
+#
+#  section: journal | conference   (decides which heading it appears under)
+# =====================================================================
+
+- title: "LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys"
+  authors: "**Md Khalid Syfullah**, Alvi Ataur Khalil"
+  venue: "IEEE International Conference on E-health Networking, Application & Services (HealthCom)"
+  year: 2026
+  status: accepted
+  section: conference
+
+- title: "USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation"
+  authors: "**Md Khalid Syfullah**, Alvi Ataur Khalil"
+  venue: "IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+  year: 2026
+  section: conference
+
+- title: "Detection of Mental Stress From Photoplethysmography for Under-Resourced Healthcare Systems"
+  authors: "Md Santo Ali, Mohammod Abdul Motin, Sapnil Sarker Bipro, Sumaiya Kabir, **Md Khalid Syfullah**, Dinesh K. Kumar"
+  venue: "IEEE Sensors Journal, 26(4):6293–6301"
+  year: 2026
+  section: journal
+
+- title: "A Deep Learning Approach for Multiclass Domain-Specific Question Classification in Computer Science for Bangla Language"
+  authors: "M. N. Hossain, D. Karmakar, P. Nandi, M. Osama, **M. K. Syfullah**"
+  venue: "International Conference on Electrical, Computer and Communication Engineering (ECCE)"
+  year: 2025
+  link: https://ieeexplore.ieee.org/abstract/document/11013932
+  section: conference
+
+- title: "Car Price Prediction: A Comparative Study of Machine Learning and Deep Learning Approaches"
+  authors: "M. A. Kadir, B. Nassar, S. M. J. Alam, S. Ahmed, **M. K. Syfullah**"
+  venue: "International Conference on Electrical, Computer and Communication Engineering (ECCE)"
+  year: 2025
+  link: https://ieeexplore.ieee.org/abstract/document/11013535
+  section: conference
+
+- title: "Federated Learning for Autism Spectrum Disorder Detection"
+  authors: "**M. K. Syfullah**, M. S. Ali, M. M. Hossain"
+  venue: "International Conference on Machine Intelligence and Emerging Technologies (MIET), Springer"
+  year: 2024
+  link: https://link.springer.com/chapter/10.1007/978-981-96-2721-9_10
+  code: https://github.com/Khalidsyfullah/Federated-Learning-for-Autism-Spectrum-Disorder
+  section: conference
+
+- title: "Detecting and Understanding Cyberbullying in Bengali: An Explainable AI Approach"
+  authors: "**M. K. Syfullah**, R. Amin, M. Manirujjaman, M. M. Hasan, M. R. Abid, S. Ahmed"
+  venue: "IEEE International Conference on Computing, Applications and Systems (COMPAS), pp. 1–7"
+  year: 2024
+  link: https://ieeexplore.ieee.org/abstract/document/10797170
+  section: conference
+
+- title: "Towards Early Dengue Diagnosis in Bangladesh: A Non-Invasive Prediction Model Based on Symptoms and Local Trends"
+  authors: "**Md Khalid Syfullah**, Md. Santo Ali, Asfia Moon Oishy, Md. Sozib Hossain"
+  venue: "IEEE International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON), pp. 833–838"
+  year: 2024
+  link: https://ieeexplore.ieee.org/abstract/document/10800244
+  code: https://github.com/Khalidsyfullah/Research-on-Bangladeshi-Dengue-Data
+  section: conference
+
+- title: "Enhancing Bangla Sign Language Recognition with Max Voting Ensemble"
+  authors: "R. Amin, M. M. R. Tusher, **M. K. Syfullah**, S. J. Alam, M. Manirujjaman, F. Faisal"
+  venue: "IEEE International Conference on Computing, Applications and Systems (COMPAS), pp. 1–6"
+  year: 2024
+  link: https://ieeexplore.ieee.org/abstract/document/10796802
+  section: conference

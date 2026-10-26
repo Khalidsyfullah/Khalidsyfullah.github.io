@@ -1,0 +1,111 @@
+# =====================================================================
+#  TRAVELLING  —  shown on the /travelling/ page, newest first.
+#  Upload photos to the folder  assets/img/travel/  and list their
+#  file names under "photos". A trip with no photos still shows.
+#
+#  - place: "Lalakhal, Jaintapur, Sylhet, Bangladesh"
+#    date: "22 February 2025"
+#    photos:
+#      - lalakhal-1.jpg
+#      - lalakhal-2.jpg
+# =====================================================================
+
+- place: "Seattle, Washington, USA"
+  date: "October 2026"
+  photos:
+    - seattle-1.jpg
+    - seattle-2.jpg
+    - seattle-3.jpg
+    - seattle-4.jpg
+
+- place: "Panther Den Trailhead, Shawnee National Forest, Illinois, USA"
+  date: "April 2026"
+  photos:
+    - panther-den-1.jpg
+    - panther-den-2.jpg
+    - panther-den-3.jpg
+
+- place: "Spring in the USA: Carbondale, Illinois"
+  date: "March 2026"
+  photos:
+    - spring-1.jpg
+    - spring-2.jpg
+    - spring-3.jpg
+
+- place: "Arriving in the USA: Winter in Carbondale, Illinois"
+  date: "January 2026"
+  photos:
+    - usa-winter-1.jpg
+    - usa-winter-2.jpg
+    - usa-winter-3.jpg
+    - usa-winter-4.jpg
+    - usa-winter-5.jpg
+
+- place: "Dubai, United Arab Emirates"
+  date: "December 2025"
+  photos:
+    - dubai-1.jpg
+    - dubai-2.jpg
+    - dubai-3.jpg
+    - dubai-4.jpg
+    - dubai-5.jpg
+
+- place: "Lalakhal, Jaintapur, Sylhet, Bangladesh"
+  date: "22 February 2025"
+  photos:
+    - lalakhal-1.jpg
+    - lalakhal-2.jpg
+
+- place: "Saint Martin's Island, Bangladesh"
+  date: "13 December 2024"
+  photos:
+    - saint-martin-1.jpg
+    - saint-martin-2.jpg
+    - saint-martin-3.jpg
+    - saint-martin-4.jpg
+
+- place: "Jaflong, Sylhet, Bangladesh"
+  date: "6 September 2024"
+  photos:
+    - jaflong-1.jpg
+    - jaflong-2.jpg
+    - jaflong-3.jpg
+
+- place: "Tanguar Haor, Sunamganj, Bangladesh"
+  date: "22 August 2024"
+  photos:
+    - tanguar-haor-1.jpg
+    - tanguar-haor-2.jpg
+    - tanguar-haor-3.jpg
+    - tanguar-haor-4.jpg
+
+- place: "Sitakund, Chattogram, Bangladesh"
+  date: "November 2023"
+  photos:
+    - sitakund-1.jpg
+    - sitakund-2.jpg
+    - sitakund-3.jpg
+
+- place: "Sreemangal, Bangladesh"
+  date: "February 2023"
+  photos:
+    - sreemangal-1.jpg
+    - sreemangal-2.jpg
+    - sreemangal-3.jpg
+
+- place: "Sikkim and Kolkata, India"
+  date: "November 2022"
+  photos:
+    - sikkim-1.jpg
+    - sikkim-2.jpg
+    - sikkim-3.jpg
+    - sikkim-4.jpg
+    - sikkim-5.jpg
+    - sikkim-6.jpg
+
+- place: "Bandarban, Bangladesh"
+  date: "7 October 2021"
+  photos:
+    - bandarban-1.jpg
+    - bandarban-2.jpg
+    - bandarban-3.jpg

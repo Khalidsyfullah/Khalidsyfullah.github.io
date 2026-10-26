@@ -1,0 +1,25 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<!-- Papers are listed in _data/publications.yml — edit that file, not this one. -->
+
+<p>Full list on <a href="https://scholar.google.com/citations?user=W5azD1AAAAAJ&hl=en">Google Scholar</a>.</p>
+
+{% assign sections = "journal:Journal Articles,conference:Conference Papers" | split: "," %}
+{% for s in sections %}
+{% assign key = s | split: ":" | first %}{% assign heading = s | split: ":" | last %}
+<h2>{{ heading }}</h2>
+<ol class="pub-list">
+{% for p in site.data.publications %}{% if p.section == key %}
+  <li class="pub">
+    <div class="pub-title">{{ p.title }}</div>
+    <div class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+    <div><span class="pub-venue">{{ p.venue }}</span>, {{ p.year }}{% if p.status %}<span class="tag">{{ p.status }}</span>{% endif %}</div>
+    {% if p.link or p.code %}<div class="pub-links">{% if p.link %}<a href="{{ p.link }}">[Paper]</a>{% endif %}{% if p.code %}<a href="{{ p.code }}">[Code]</a>{% endif %}</div>{% endif %}
+  </li>
+{% endif %}{% endfor %}
+</ol>
+{% endfor %}

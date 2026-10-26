@@ -1,0 +1,11 @@
+{% assign n = include.limit | default: 1000 %}
+<div class="timeline">
+  {% for m in site.data.updates limit: n %}
+  <div class="month">
+    <div class="month-label">{{ m.month }}</div>
+    <ul class="month-items">
+      {% for item in m.items %}<li>{{ item | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
